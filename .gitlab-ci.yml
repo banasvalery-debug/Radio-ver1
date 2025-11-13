@@ -1,0 +1,34 @@
+image: cirrusci/flutter:2.8.1
+
+stages:
+  - build
+
+android:apkrelease:
+  stage: build
+  tags:
+    - flutter-builder
+  before_script:
+    - flutter pub get
+    - flutter clean
+  script:
+    - flutter doctor
+    - flutter build apk
+  artifacts:
+    paths:
+      - "build/app/outputs/flutter-apk/app-release.apk"
+    expire_in: 1 day
+
+android:aabrelease:
+  stage: build
+  tags:
+    - flutter-builder
+  before_script:
+    - flutter pub get
+    - flutter clean
+  script:
+    - flutter doctor
+    - flutter build appbundle
+  artifacts:
+    paths:
+      - "build/app/outputs/bundle/release/app-release.aab"
+    expire_in: 1 day

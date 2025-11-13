@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "236361432862",
+    "firebase_url": "https://radio-cc124.firebaseio.com",
+    "project_id": "radio-cc124",
+    "storage_bucket": "radio-cc124.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236361432862:android:274d06ac092cc48e",
+        "android_client_info": {
+          "package_name": "truth.voiceof.radio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236361432862-aufjistj7pla2mhg884h3pvs1rpachkl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "truth.voiceof.radio",
+            "certificate_hash": "df5ce2852e0dee9bdb988b3985fc81f0a854f22f"
+          }
+        },
+        {
+          "client_id": "236361432862-ka74q33k8levkcjv2n5upvqed37f0ks0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "truth.voiceof.radio",
+            "certificate_hash": "ef256336b660891092d626cfd721177223c9ecf9"
+          }
+        },
+        {
+          "client_id": "236361432862-9dputun30shh56qvalj6qro03dm23vh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCio9bj3g98CPuSV4yeCueLDCO9SP6qa4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236361432862-9dputun30shh56qvalj6qro03dm23vh2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236361432862-59ssssnb8orgvqe18drb9q1mvjmgkit8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.radiogi.iphone",
+                "app_store_id": "1164576422"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
